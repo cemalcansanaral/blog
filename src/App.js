@@ -6,16 +6,12 @@ import Carousel from "./components/carousel"
 import Footer from "./components/footer"
 import Cards from "./components/cards"
 import Share from "./components/share"
-import { Helmet } from "react-helmet"
 
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <Helmet>
-          <title>Cemal Can Şanaral</title>
-        </Helmet>
         <Navbar/>
         <Carousel/>
         <Cards/>

@@ -3,7 +3,7 @@ import React, { Component } from "react"
 class Share extends Component {
     render(){
         return(
-            <div class="container">
+            <div class="container pb-2">
             <h3>Blog'u Paylaş Bana Destek Ol.</h3>
             <div id="share-buttons">
 
