@@ -6,18 +6,29 @@ import Carousel from "./components/carousel"
 import Footer from "./components/footer"
 import Cards from "./components/cards"
 import Share from "./components/share"
+import NedenBlogActim from "./pages/nedenblogactim"
+import { BrowserRouter, Switch, Route } from "react-router-dom";
 
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <Navbar/>
-        <Carousel/>
-        <Cards/>
-        <Share/>
-        <Footer/>
-      </div>
+      <BrowserRouter>
+        <div className="App">
+          <Navbar/>
+
+          <Switch>
+            <Route exact path = "/nedenblogactim">
+              <NedenBlogActim/>
+            </Route>
+          </Switch>
+
+          <Carousel/>
+          <Cards/>
+          <Share/>
+          <Footer/>
+        </div>
+      </BrowserRouter>
   )
 }
 }

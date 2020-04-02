@@ -1,4 +1,5 @@
 import React, { Component } from "react"
+import ReactMarkDown from "react-markdown"
 
 class NedenBlogActim extends Component {
     render(){
@@ -40,7 +41,8 @@ class NedenBlogActim extends Component {
         // <!-- carousel -->
         <div class="carousel-inner container pt-4">
             <div class="carousel-item active">
-            <img src="blog.jpg" style='height: 100%; width: 100%; object-fit: contain' class="d-block w-100" alt="...">
+            {/* <img src="blog.jpg" style='height: 100%; width: 100%; object-fit: contain' class="d-block w-100" alt="..."> */}
+            <img src="https://i.hizliresim.com/fjSoej.jpg" style='height: 100%; width: 100%; object-fit: contain' class="d-block w-100" alt="..."></img>
             </div>
         </div>
         {/* <!-- carouselEnd --> */}
