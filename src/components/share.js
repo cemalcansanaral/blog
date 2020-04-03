@@ -4,6 +4,7 @@ class Share extends Component {
     render(){
         return(
             <div class="container pb-2" style = {{textAlign: "center"}}>
+            <hr></hr>
             <h3>Blog'u Paylaş Bana Destek Ol.</h3>
             <div id="share-buttons">
 

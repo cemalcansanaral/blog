@@ -42,7 +42,7 @@ class HomePage extends Component {
                     </Link>
                 </div>
                 </div>
-                <hr/>
+                
                 </div>
                 {/* cards1End */}
 
