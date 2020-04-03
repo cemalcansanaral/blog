@@ -21,6 +21,7 @@ class App extends Component {
             <Route exact path = "/nedenblogactim">
               <NedenBlogActim/>
             </Route>
+            
           </Switch>
 
           <Carousel/>

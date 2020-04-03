@@ -1,6 +1,7 @@
 import React, { Component } from "react"
 import { Card } from "react-bootstrap"
 import { CardDeck } from "react-bootstrap"
+import { Link } from "react-router-dom";
 
 class Cards extends Component {
     render(){
