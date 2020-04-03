@@ -7,6 +7,7 @@ import Footer from "./components/footer"
 import NedenBlogActim from "./articles/nedenblogactim"
 import Hakkimda from "./articles/hakkimda"
 import Share from "./components/share"
+import BilgisayarNedir from "./articles/bilgisayarnedir"
 
 import {
   BrowserRouter,
@@ -30,6 +31,10 @@ class App extends Component {
 
                   <Route exact path = "/nedenblogactim">
                     <NedenBlogActim/>
+                  </Route>
+
+                  <Route exact path = "/bilgisayarnedir">
+                    <BilgisayarNedir/>
                   </Route>
 
                   <Route exact path = "/hakkimda">

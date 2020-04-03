@@ -23,13 +23,9 @@ class Navbar extends Component {
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                 <Link class="dropdown-item" to="/nedenblogactim">Neden Blog Açtım?</Link>
                 <li class="dropdown-header">Bilgisayar</li>
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Bilgisayar Nedir?
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <Link class="dropdown-item" to="/bilgisayarnedir">Bilgisayar Nedir?</Link>
                 <a class="dropdown-item" href="#">İç Donanım Birimleri</a>
                 <a class="dropdown-item" href="#">Dış Donanım Birimleri</a>
-                </div>
                 </div>
             </li>
                 <Link class="nav-item nav-link" to="/hakkimda">Hakkımda</Link>

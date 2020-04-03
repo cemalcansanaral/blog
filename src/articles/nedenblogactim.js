@@ -1,6 +1,9 @@
 import React, { Component } from "react"
 
 class NedenBlogActim extends Component {
+    componentDidMount() {
+        window.scrollTo(0, 0);
+    }
     render(){
         return(
             <div className = "container pt-4">
@@ -18,8 +21,8 @@ class NedenBlogActim extends Component {
                     <div className="col-sm">
 
                     </div>
-                    <div className="col-sm-10 mt-2">
-                        <h2 style = {{textAlign: "center"}}> Neden Blog Açtım ? </h2>
+                    <div className="col-sm-11 mt-2">
+                        <h1 style = {{textAlign: "center"}}> Neden Blog Açtım ? </h1>
                         <p className = "mt-2" style = {{fontSize: "25px"}}>
                             Bu blog’u açmaktaki başlıca amaçlarım;
                                 <ul>
@@ -60,7 +63,7 @@ class NedenBlogActim extends Component {
                     <div class="col-sm">
                         
                     </div>
-                    <div class="col-sm-10">
+                    <div class="col-sm-11">
                         <p style={{fontSize: "25px"}}>
                             Bu sayfanın günlük aktivitesi;
                                 <ul>
@@ -73,17 +76,17 @@ class NedenBlogActim extends Component {
                                     </li>
 
                                 </ul>
+                                {/* <!-- thanks --> */}
+                                <p style={{fontSize: "20px"}}>
+                                    Yazımı Okuduğunuz İçin Teşekkür Ederim. 🙂
+                                </p>
+                                {/* <!-- thanksEnd --> */}
                         </p>
                     </div>
                     <div class="col-sm">
 
                     </div>
                 </div>
-                {/* <!-- thanks --> */}
-                    <p style={{fontSize: "20px"}}>
-                        Yazımı Okuduğunuz İçin Teşekkür Ederim.
-                    </p>
-                {/* <!-- thanksEnd --> */}
             </div>
 
             {/* <!-- textEnd --> */}
