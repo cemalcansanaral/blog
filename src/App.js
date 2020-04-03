@@ -6,6 +6,7 @@ import HomePage from "./components/homepage"
 import Footer from "./components/footer"
 import NedenBlogActim from "./articles/nedenblogactim"
 import Hakkimda from "./articles/hakkimda"
+import Share from "./components/share"
 
 import {
   BrowserRouter,
@@ -23,7 +24,7 @@ class App extends Component {
 
                 <Switch>
 
-                  <Route exact path = "/">
+                  <Route exact path = "/blog">
                     <HomePage/>
                   </Route>
 
@@ -35,6 +36,7 @@ class App extends Component {
                     <Hakkimda/>
                   </Route>
                 </Switch>
+                <Share/>
             <Footer/>
           </div>
         </BrowserRouter>
