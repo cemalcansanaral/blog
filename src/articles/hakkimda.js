@@ -20,7 +20,7 @@ class Hakkimda extends Component {
                 {/* carouselEnd */}
                 <div className = "container">
                 <h1 className = "mt-4" style = {{textAlign: "center"}}>Hakkımda</h1>
-                <p style={{fontSize: "30px"}}>1999 Hatay / İskenderun doğumluyum. Şuan Aksaray Üniversitesinde Yönetim Bilişim Sistemleri bölümü öğrencisiyim. Tüm sorularınız,şikayet ve önerileriniz için bana telegramdan mesaj atabilirsiniz. 🙂</p>
+                <p style={{fontSize: "30px"}}>1999 Hatay / İskenderun doğumluyum. Şuan Aksaray Üniversitesinde Yönetim Bilişim Sistemleri bölümü öğrencisiyim. Tüm sorularınız,şikayet ve önerileriniz için bana İnstagram ya da Twitter'dan mesaj atabilirsiniz. 🙂</p>
                 <hr></hr>
                 </div>
             </div>
